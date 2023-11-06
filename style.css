@@ -11,7 +11,7 @@
 body{
     min-height: 100vh;
     font-family: poppins;
-    background: url(/images/bg-desktop.svg);
+    background: url(images/bg-desktop.svg);
     background-color: hsl(257, 40%, 49%);
     padding: 4rem;
 }
