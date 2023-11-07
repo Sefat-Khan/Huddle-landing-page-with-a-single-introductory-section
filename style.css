@@ -11,7 +11,7 @@
 body{
     min-height: 100vh;
     font-family: poppins;
-    background: url(images/bg-desktop.svg);
+    background: url(/images/bg-desktop.svg);
     background-color: hsl(257, 40%, 49%);
     padding: 4rem;
 }
@@ -65,13 +65,15 @@ footer{
     gap: 2rem;
     margin-top: 1rem;
 }
-footer  i{
+footer  a{
+    height: 36px;
     width: 36px;
     border: 2px solid white;
     color: white;
     border-radius: 50%;
-    padding: 0.5rem;
+    padding: 0.2rem;
     text-align: center;
+
 }
 
 @media (max-width:600px) {
